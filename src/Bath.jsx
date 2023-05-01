@@ -1,6 +1,7 @@
 const Bath = (props) => {
   return (  
-    <div>{props.size} Bath</div>
+    //Is it a problem that the ide of this is capitalized? As in, "#Full" and "#Half"
+    <div id={props.size}>{props.size} Bath</div>
   );
 }
 

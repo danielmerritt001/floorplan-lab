@@ -6,5 +6,56 @@ div {
 
 #floor-plan {
   display: grid;
+  grid-template-columns: 30% 25% 25% 20%;
+  grid-template-rows: 30% 30% 10% 30%;
+  
+  height: 500px;
+  width: 500px;
+}
 
+#living-room {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 3;
+  background-color: aquamarine;
+}
+
+.bed-3, .bed-2 {
+  grid-row: 2 / span 2;
+}
+
+.bed-1, .bed-2, .bed-3 {
+  background-color: bisque;
+}
+
+.bed-1 {
+  grid-column: 1 / span 2;
+}
+
+#Full {
+  grid-column: 3 / span 2;
+  background-color: rgb(227, 119, 155);
+}
+
+#Half {
+  background-color: pink;
+}
+
+#kitchen {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 60%;
+  background-color: plum;
+}
+
+#p-kitchen {
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+
+#oven {
+  background-color: gainsboro;
+}
+
+#sink {
+  background-color: aqua;
 }
