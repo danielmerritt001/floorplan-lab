@@ -31,12 +31,12 @@ div {
   grid-column: 1 / span 2;
 }
 
-#Full {
+#full {
   grid-column: 3 / span 2;
   background-color: rgb(227, 119, 155);
 }
 
-#Half {
+#half {
   background-color: pink;
 }
 
